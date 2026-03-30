@@ -1,17 +1,5 @@
-header {
-    display: flex;
-    width: 1120px;
-    height: 35px;
-    align-items: center;
-    margin-bottom: 60px;
-    font-weight: 500;
-    line-height: 120%;
-    letter-spacing: -0.03em;
-    color: #181717;
-    
-}
 
-nav ul {
+.header-link {
     list-style: none;
     display: flex;
 }
@@ -22,11 +10,11 @@ nav ul {
 
 .logo{
 display: flex;
-align-items: center ;
+align-items: center;
     
 }
 
-.header-list a {
+.header-list  {
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -34,7 +22,7 @@ align-items: center ;
     font-size: 21px;
 }
 
-.header-list a:hover {
+.header-list :hover {
     color: #007bff;
 }
 .header__inter{
