@@ -1,0 +1,65 @@
+.slider-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 0.6s ease-in-out;
+}
+
+.sla {
+    min-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.sla-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.sla-number {
+font-weight: 500;
+font-size: 18px;
+line-height: 122%;
+letter-spacing: -0.03em;
+text-transform: uppercase;
+}
+
+.sla-tool {
+font-weight: 400;
+font-size: 18px;
+line-height: 135%;
+letter-spacing: -0.03em;
+gap: 5px;
+}
+
+.sla-tools {
+font-weight: 400;
+font-size: 14px;
+line-height: 122%;
+letter-spacing: -0.03em;
+color: #606060;
+}
+
+.sla-more {
+    text-decoration: none;
+    font-weight: bold;
+    border-bottom: 1px solid #181717;
+}
+
+.sla-image {
+    flex: 1;
+}
+
+.sla-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}

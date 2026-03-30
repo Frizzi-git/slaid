@@ -1,0 +1,35 @@
+.modeling{
+width: 1120px;
+height: 283px;
+
+
+}
+.modeling-content{
+display: flex;
+justify-content: space-between;
+}
+
+.modeling-content__1{
+font-weight: 500;
+font-size: 38px;
+letter-spacing: -0.03em;
+color: #181717;
+width: 360px;
+
+}
+
+.modeling-content__2{
+font-weight: 400;
+font-size: 32px;
+letter-spacing: -0.03em;
+color: #606060;
+padding-top: 120px;
+height:111px ;
+width: 511px;
+}
+
+.modeling-svg{
+    position: relative;
+    position: absolute;
+    top: 400px;
+}
